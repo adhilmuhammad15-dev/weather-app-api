@@ -1,0 +1,78 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(134, 232, 220);
+    display:flex;
+    align-items:center;
+}
+.weatherForm{
+    margin:20px
+}
+.cityInput{
+    padding:10px 20px;
+    font-size:2rem;
+    font-weight:bold;
+    border:2px solid;
+    border-radius:15px;
+}
+button[type = "submit"]{
+    padding:10px 20px;
+    font-size:1rem;
+    background-color:rgb(118, 64, 183);
+    color:rgb(170, 231, 240);
+    cursor:pointer;
+
+}
+button[type = "submit"]:hover{
+    background-color:rgb(25, 100, 100);
+
+}
+.card{
+    text-align:center;
+    color:white;
+    background:linear-gradient(180deg,rgb(192, 216, 227),rgb(105, 36, 38));
+    min-width:30px;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    border:10px
+
+}
+h1{
+    font-size:3rem;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:black
+}
+p{
+    font-size:1rem;
+    margin:10px 0px;
+}
+.cityDisplay, .tempDisplay{
+    font-size:3rem;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:black
+}
+.humidityDisplay{
+    font-weight:bold;
+    color:black;
+}
+.descDisplay{
+    font-size:2rem;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:black;
+    
+}
+.weatherEmoji{
+    font-size:4rem;
+    margin:0;
+}
+.errorDisplay{
+    font-size:2rem;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:black;
+    font-weight:bold;
+}
+
